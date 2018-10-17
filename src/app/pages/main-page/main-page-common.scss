@@ -1,0 +1,23 @@
+.colors__container {
+    height: 100%;
+    width: 100%;
+
+    .colors__wrapper {
+        padding-bottom: 12%;
+        padding-left: 20%;
+
+        .colors__label-title {
+            font-family: "Lato-Regular";
+            font-weight: bold;
+            font-size: 35;
+            margin-bottom: 2%;
+        }
+    
+        .colors__label-verse {
+            font-family: "Lato-Regular";
+            font-weight: 400;
+            font-size: 16;
+            margin-right: 2%;
+        }
+    }
+}

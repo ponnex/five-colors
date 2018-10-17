@@ -2,6 +2,7 @@ import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule, NavigatableComponents } from "./app.routing";
 import { AppComponent } from "./app.component";
+import { NavigationService } from "./services/navigation.service";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -20,6 +21,9 @@ import { AppComponent } from "./app.component";
     declarations: [
         AppComponent,
         NavigatableComponents
+    ],
+    providers: [
+        NavigationService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

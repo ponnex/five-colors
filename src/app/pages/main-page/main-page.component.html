@@ -1,3 +1,25 @@
-<StackLayout class="page">
-    <Label text="Five Colors" textWrap="true"></Label>
-</StackLayout>
+<GridLayout columns="*" rows="*, *, *, *, *" class="colors__container">
+    <GridLayout row="0" col="0" columns="auto, auto, *" rows="*, auto, auto" class="colors__wrapper" backgroundColor="gold">
+        <Label text="Heaven" class="colors__label-title" color="black" row="1" col="0" colSpan="2"></Label>
+        <Label text="Genesis 1: 26" class="colors__label-verse" color="red" row="2" col="0"></Label>
+        <Label text="John 3:16" class="colors__label-verse" color="red" row="2" col="1"></Label>
+    </GridLayout>
+    <GridLayout row="1" col="0" columns="auto, auto, *" rows="*, auto, auto" class="colors__wrapper" backgroundColor="black">
+        <Label text="Sin" class="colors__label-title" row="1" color="red" col="0"  colSpan="2"></Label>
+        <Label text="Romans 3:23" class="colors__label-verse" color="white" row="2" col="0"></Label>
+        <Label text="Romans 6:23" class="colors__label-verse" color="white" row="2" col="1"></Label>
+    </GridLayout>
+    <GridLayout row="2" col="0" columns="auto, auto, *" rows="*, auto, auto" class="colors__wrapper" backgroundColor="red">
+        <Label text="Blood of Jesus" class="colors__label-title" color="gold" row="1" col="0" colSpan="2"></Label>
+        <Label text="John 3:16" class="colors__label-verse" row="2" color="gold" col="0"></Label>
+        <Label text="John 14:6" class="colors__label-verse" row="2" color="gold" col="1"></Label>
+    </GridLayout>
+    <GridLayout row="3" col="0" columns="auto, auto, *" rows="*, auto, auto" class="colors__wrapper" backgroundColor="white">
+        <Label text="Forgiven" class="colors__label-title" color="red" row="1" col="0" colSpan="2"></Label>
+        <Label text="1 John 1:19" class="colors__label-verse" color="black" row="2" col="0"></Label>
+    </GridLayout>
+    <GridLayout row="4" col="0" columns="auto, auto, *" rows="*, auto, auto" class="colors__wrapper" backgroundColor="green">
+        <Label text="Growth" class="colors__label-title" color="white" row="1" col="0" colSpan="2"></Label>
+        <Label text="Ephesians 4:15" class="colors__label-verse" color="black" row="2" col="0"></Label>
+    </GridLayout>
+</GridLayout>

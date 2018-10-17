@@ -29,9 +29,10 @@
         "zone.js": "^0.8.26"
     },
     "devDependencies": {
-        "typescript": "~2.7.2",
+        "@nativescript/schematics": "~0.3.0",
+        "nativescript-dev-sass": "^1.6.0",
         "nativescript-dev-typescript": "~0.7.0",
-        "@nativescript/schematics": "~0.3.0"
+        "typescript": "~2.7.2"
     },
     "readme": "NativeScript Application"
 }
